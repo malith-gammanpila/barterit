@@ -4,6 +4,10 @@
     "title": "Good green beans",
     "quantity": 10,
     "unit": "kg",
+    "trade_quality": {
+      "hint": "success",
+      "msg": "-4.5%"
+    },
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "images": [
       "https://backend.lassana.com/images/products/Cucumber--1584340352.jpg",
@@ -16,6 +20,7 @@
     "title": "Ever purple cabbage",
     "quantity": 2.5,
     "unit": "kg",
+    "trade_quality": { "hint": "danger", "msg": "+2.0%" },
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "images": [
       "https://backend.lassana.com/images/products/Cucumber--1584340352.jpg",
@@ -28,6 +33,7 @@
     "title": "Very big onions",
     "quantity": 5,
     "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "0.0%" },
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "images": [
       "https://backend.lassana.com/images/products/Cucumber--1584340352.jpg",

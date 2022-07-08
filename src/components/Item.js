@@ -50,6 +50,41 @@ const Item = ({ data }) => {
           <span class="sr-only">Next</span>
         </a>
       </div>
+      {/* Title */}
+      <p>
+        {data.title}{' '}
+        <span class={`badge badge-${data.trade_quality.hint}`}>
+          {data.trade_quality.msg}
+        </span>
+      </p>
+      {/* Quantity */}
+      <p>{`${data.quantity} ${data.unit}`}</p>
+      {/* Decription */}
+      <p>{data.description}</p>
+      {/* Decription */}
+      <p>{data.description}</p>
+      <div className="container">
+        <div className="row">
+          <div className="col-6">
+            <button
+              type="button"
+              class="btn btn-primary"
+              style={{ width: '100%' }}
+            >
+              Chat
+            </button>
+          </div>
+          <div className="col-6">
+            <button
+              type="button"
+              class="btn btn-success"
+              style={{ width: '100%' }}
+            >
+              Propose Trade
+            </button>
+          </div>
+        </div>
+      </div>
     </>
   ) : (
     <>"No data"</>
