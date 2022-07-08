@@ -61,7 +61,20 @@ const UploadItem = () => {
             placeholder="Enter the quantity"
           />
         </div>
-
+        {/* Price range */}
+        <div class="form-group">
+          <label for="customRange3" class="form-label">
+            Price Range
+          </label>
+          <input
+            type="range"
+            class="form-range"
+            min="-1"
+            max="1"
+            step="0.1"
+            id="priceRange"
+          />
+        </div>
         {/* upload files */}
         <div class="custom-file">
           <input type="file" class="custom-file-input" id="customFile" />
@@ -80,20 +93,6 @@ const UploadItem = () => {
           <label class="custom-file-label" for="customFile">
             Image 3
           </label>
-        </div>
-        {/* Price range */}
-        <div class="form-group">
-          <label for="customRange3" class="form-label">
-            Price Range
-          </label>
-          <input
-            type="range"
-            class="form-range"
-            min="-1"
-            max="1"
-            step="0.1"
-            id="priceRange"
-          />
         </div>
       </form>
     </>
