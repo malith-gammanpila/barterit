@@ -8,59 +8,52 @@ const Item = ({ data }) => {
   return data ? (
     <>
       {/* Navbar */}
-      <Navbar />
+      <Navbar
+      // navTitle={data.title}
+      />
       {/* Slider */}
       <div
-        id="carouselExampleIndicators"
+        id="carouselExampleControls"
         class="carousel slide"
-        data-ride="carousel"
+        data-bs-ride="carousel"
       >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner">
-          {data.images.map((image, i) => (
-            <div class={`carousel-item ${i == 0 ? 'active' : null}`}>
-              <img class="d-block w-100" src={image} alt="First slide" />
-            </div>
-          ))}
+          <div class="carousel-inner">
+            {data.images.map((image, i) => (
+              <div class={`carousel-item ${i == 0 ? 'active' : null}`}>
+                <img class="d-block w-100" src={image} alt="First slide" />
+              </div>
+            ))}
+          </div>
         </div>
-        <a
+        <button
           class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
           class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
       {/* Title */}
       <p>
         {data.title}{' '}
-        <span class={`badge badge-${data.trade_quality.hint}`}>
+        <span class={`badge bg-${data.trade_quality.hint}`}>
           {data.trade_quality.msg}
         </span>
       </p>
       {/* Quantity */}
       <p>{`${data.quantity} ${data.unit}`}</p>
-      {/* Decription */}
-      <p>{data.description}</p>
       {/* Decription */}
       <p>{data.description}</p>
       <div className="container">
