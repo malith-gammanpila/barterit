@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Good green beans",
+    "quantity": 10,
+    "unit": "kg",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://backend.lassana.com/images/products/Cucumber--1584340352.jpg",
+      "https://www.eztonga.com/wp-content/uploads/2021/10/beans-500x500-1.jpg",
+      "https://4.imimg.com/data4/KP/UV/MY-27021573/fresh-beans-500x500.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Ever purple cabbage",
+    "quantity": 2.5,
+    "unit": "kg",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://backend.lassana.com/images/products/Cucumber--1584340352.jpg",
+      "https://www.eztonga.com/wp-content/uploads/2021/10/beans-500x500-1.jpg",
+      "https://4.imimg.com/data4/KP/UV/MY-27021573/fresh-beans-500x500.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Very big onions",
+    "quantity": 5,
+    "unit": "kg",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://backend.lassana.com/images/products/Cucumber--1584340352.jpg",
+      "https://www.eztonga.com/wp-content/uploads/2021/10/beans-500x500-1.jpg",
+      "https://4.imimg.com/data4/KP/UV/MY-27021573/fresh-beans-500x500.jpg"
+    ]
+  }
+]
