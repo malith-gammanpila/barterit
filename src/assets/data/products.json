@@ -1,0 +1,330 @@
+[
+    {
+        "id": 1,
+        "name": "Beans",
+        "categoryId": 1,
+        "prices": [
+            350.00, 275.00, 400.00
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Carrot",
+        "categoryId": 1,
+        "prices": [
+            300.00, 255.00, 320.00
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Cabbage",
+        "categoryId": 1,
+        "prices": [
+            340.00, 235.00, 400.00
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Tomato",
+        "categoryId": 1,
+        "prices": [
+            200.00, 135.00, 320.00
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Brinjal",
+        "categoryId": 1,
+        "prices": [
+            250.00, 275.00, 360.00
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Pumpkin",
+        "categoryId": 1,
+        "prices": [
+            250.00, 225.00, 320.00
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Snake gourd",
+        "categoryId": 1,
+        "prices": [
+            250.00, 165.00, 400.00
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Green chilli",
+        "categoryId": 1,
+        "prices": [
+            600.00, 505.00, 700.00
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Lime",
+        "categoryId": 1,
+        "prices": [
+            350.00, 295.00, 600.00
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Banana (Sour)",
+        "categoryId": 2,
+        "prices": [
+            120.00, 63.00, 160.00
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Papaw",
+        "categoryId": 2,
+        "prices": [
+            150.00, 93.00, 250.00
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Pineapple",
+        "categoryId": 2,
+        "prices": [
+            250.00, 220.00, 380.00
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Apple (Imp)",
+        "categoryId": 2,
+        "prices": [
+            130.00, 200.00
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Orange (Imp)",
+        "categoryId": 2,
+        "prices": [
+            160.00, 240.00
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Samba",
+        "categoryId": 3,
+        "prices": [
+            240.00
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Nadu",
+        "categoryId": 3,
+        "prices": [
+            230.00
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Kekulu (White)",
+        "categoryId": 3,
+        "prices": [
+            220.00
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Kekulu (Red)",
+        "categoryId": 3,
+        "prices": [
+            220.00
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Ponni Samba (Imp)",
+        "categoryId": 3,
+        "prices": [
+            240.00, 215.00
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Nadu (Imp)",
+        "categoryId": 3,
+        "prices": [
+            220.00, 220.00
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Kekulu (White Imp)",
+        "categoryId": 3,
+        "prices": [
+            220.00, 195.00
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Kelawalla",
+        "categoryId": 4,
+        "prices": [
+            1620.00, 2180.00
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Thalapath",
+        "categoryId": 4,
+        "prices": [
+            1890.00, 1960.00
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Paraw",
+        "categoryId": 4,
+        "prices": [
+            2190.00, 1800.00
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Salaya",
+        "categoryId": 4,
+        "prices": [
+            870.00, 620.00
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Hurulla",
+        "categoryId": 4,
+        "prices": [
+            1140.00, 1200.00
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Linna",
+        "categoryId": 4,
+        "prices": [
+            1100.00, 1080.00
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Red Onion (Local)",
+        "categoryId": 5,
+        "prices": [
+            345.00, 480.00
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Red Onion (Imp)",
+        "categoryId": 5,
+        "prices": [
+            340.00, 325.00, 480.00
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Big Onion (Local)",
+        "categoryId": 5,
+        "prices": [
+            156.00, 168.00
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Big Onion (Imp)",
+        "categoryId": 5,
+        "prices": [
+            180.00, 188.00, 200.00
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Potato (Local)",
+        "categoryId": 5,
+        "prices": [
+            430.00, 400.00
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Potato (Imp)",
+        "categoryId": 5,
+        "prices": [
+            240.00, 203.00, 240.00
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Dred Chilli (Imp)",
+        "categoryId": 5,
+        "prices": [
+            2000.00, 1580.00, 1900.00
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Coconut",
+        "categoryId": 5,
+        "prices": [
+            80.00, 64.00, 100.00
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Coconut Oil",
+        "categoryId": 5,
+        "prices": [
+            741.00, 574.00
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Dhal",
+        "categoryId": 5,
+        "prices": [
+            620.00, 640.00
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Sugar (White)",
+        "categoryId": 5,
+        "prices": [
+            340.00, 330.00
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Egg (White)",
+        "categoryId": 5,
+        "prices": [
+            38.00, 42.00
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Katta",
+        "categoryId": 5,
+        "prices": [
+            2500.00, 3400.00
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Sprat (Imp)",
+        "categoryId": 5,
+        "prices": [
+            1600.00, 2200.00
+        ]
+    }
+]

@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Item from './components/Item';
-import Dashboard from './components/Dashboard';
-import ItemList from './assets/data/items.json';
-import Categories from './components/Categories';
+import RoutesList from './components/routes/routes';
 
 function App() {
-  return <Categories data={ItemList} />;
+  // return <Categories data={ItemList} />;
+  // return <Item data={ItemList[0]} />;
+  // return <UploadItem />;
+  return <RoutesList />;
 }
 
 export default App;

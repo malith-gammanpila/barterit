@@ -1,9 +1,15 @@
 [
   {
     "id": 1,
-    "title": "Good green beans",
+    "title": "Good Green Beans",
+    "productId": 1,
+    "CategoryId": 1,
     "quantity": 10,
     "unit": "kg",
+    "trade_quality": {
+      "hint": "success",
+      "msg": "-4.5%"
+    },
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "images": [
       "https://backend.lassana.com/images/products/Cucumber--1584340352.jpg",
@@ -13,26 +19,257 @@
   },
   {
     "id": 2,
-    "title": "Ever purple cabbage",
+    "title": "Ever Purple Cabbage",
+    "productId": 3,
+    "CategoryId": 1,
     "quantity": 2.5,
     "unit": "kg",
+    "trade_quality": { "hint": "danger", "msg": "+2.0%" },
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "images": [
-      "https://backend.lassana.com/images/products/Cucumber--1584340352.jpg",
-      "https://www.eztonga.com/wp-content/uploads/2021/10/beans-500x500-1.jpg",
-      "https://4.imimg.com/data4/KP/UV/MY-27021573/fresh-beans-500x500.jpg"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRarRvKvCIoHHFn0f0YeO5SQMvqEbFS5psx_TJBv9F58igsRM2bUtMuMuwktssymh9K15Y&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIAysgSfnfQqxdTsDTnJKuve6rdv-DaqN8SqmFyL4Ai56QLFjcz4mtxSlYLZS4uYU1itw&usqp=CAU",
+      "https://png.pngtree.com/png-vector/20201011/ourlarge/pngtree-green-cabbage-leaves-png-image_2358165.jpg"
     ]
   },
   {
     "id": 3,
-    "title": "Very big onions",
+    "title": "Onions",
+    "productId": 29,
+    "CategoryId": 5,
     "quantity": 5,
     "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "0.0%" },
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
     "images": [
-      "https://backend.lassana.com/images/products/Cucumber--1584340352.jpg",
-      "https://www.eztonga.com/wp-content/uploads/2021/10/beans-500x500-1.jpg",
-      "https://4.imimg.com/data4/KP/UV/MY-27021573/fresh-beans-500x500.jpg"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Zo1tuIY5jbEmbR3k5sQRoDbHoyYu4UtXAbMV7CKMSytL_IjlM0iE6penoq2QUBYUVok&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-mbEviOVXU-v9rGivG9kjqud70GA2FLk2pWaGPYgvxSwsc5rqCJbkIkNPsUazzzYjSps&usqp=CAU",
+      "https://avatars.mds.yandex.net/i?id=815ea03055d929fffa0a440e06330964-5256838-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Carrots",
+    "productId": 2,
+    "CategoryId": 1,
+    "quantity": 2,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "+1.5%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0058/7779/2832/articles/carrot_for_skin_shutterstock_1902061504_1by1.jpg?v=1625473630",
+      "http://www.commerce.gouv.cg/sites/default/files/styles/large/public/2020-03/carottes.jpg?itok=B_683k1X",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPwExazALa6XOmd5IdK94g-mxsi-nB_28SN7s1uOEZAUmmCN_25NdDgx4twUsfSap7BKo&usqp=CAU"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Tomatoes",
+    "productId": 4,
+    "CategoryId": 1,
+    "quantity": 5,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "-2.2%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://images.freshop.com/1564405684711691385/04b88dbf190003088c17a0d4e75251a5_large.png",
+      "https://avatars.mds.yandex.net/i?id=2d1ecd6225b08f391838fdd39a54ea15-5236812-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=80b939513c07711cd4769b8c4aa9fffa-4575918-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pumpkin",
+    "productId": 6,
+    "CategoryId": 1,
+    "quantity": 3,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "+2.0%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://www.mediastorehouse.com/p/617/pumpkin-slice-removed-showing-fleshy-pulp-seeds-9547535.jpg.webp",
+      "https://avatars.mds.yandex.net/i?id=3da0e53ddd8d3f041314e1ffda3e7ec6-4417779-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=755bb6471a8c6f26cd6d4e6efbdd3ab4-4079100-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Lime",
+    "productId": 9,
+    "CategoryId": 1,
+    "quantity": 1,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "0.0%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://static.libertyprim.com/files/familles/lime-large.jpg?1569491474",
+      "https://avatars.mds.yandex.net/i?id=a590388baf320fd457143f54e7a152c4-5480670-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=da2e6a0670d9c4ddfe6d32f49a94c74f-5276366-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Sour Banana",
+    "productId": 10,
+    "CategoryId": 2,
+    "quantity": 2,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "-4.0%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=40fb6e9586a92765a71cda3904f60dd3-5524434-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=dfbbb0a699d5bf7b7bfb7ab36edc0eae-5343154-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=84af274213d4317278f0646599de48fc-4292261-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Pineapples",
+    "productId": 12,
+    "CategoryId": 2,
+    "quantity": 3,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "0.0%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=7c17ad707d0b47ab9225f7a44f869dff-5734572-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=90a27fb44f5549accf2d8e22c334ba65-5240938-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=2793b037a7663f49a1dfec4ef2837108-4121052-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Imported Red Apples",
+    "productId": 13,
+    "CategoryId": 2,
+    "quantity": 10,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "-3.5%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=42157b18e79c19aec8c41dcf04dac24e-5305527-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=742db15fb2c839f467b1674cb79d8c65-5524434-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=12723c9b1458cbd34e2162e5de03a2fa-6209458-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "White Kekulu Rice",
+    "productId": 17,
+    "CategoryId": 3,
+    "quantity": 5,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "+1.2%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=9a0f71806d6e3d4564b152e9b033e330-4517378-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=58bd8ca242780057c8fc366b7f2f30dd-4503134-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=37664f630db40f59438934b9670c0984-5204968-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "White Eggs",
+    "productId": 39,
+    "CategoryId": 5,
+    "quantity": 10,
+    "unit": "nos.",
+    "trade_quality": { "hint": "info", "msg": "0.0%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=9d6184730704c54a3ccd0d2876be93bb-4027955-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=10f5f28670ffc39100f6a5f8422e405f-5856184-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=305d9b3c44eb202f7bc0e83cedd2da80-5749428-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "White Sugar",
+    "productId": 38,
+    "CategoryId": 5,
+    "quantity": 2,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "-2.0%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=a58c5328dc7e3f73b653528dab862428-4824740-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=f173781923a1c1645d066828891bc42e-3584141-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=cb2e64aa4784ad623bf04f771784ef27-5434194-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Thalapath",
+    "productId": 23,
+    "CategoryId": 4,
+    "quantity": 5,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "+2.0%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=939246ff0ddcc5e5d54b83f72686563a-4033951-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=85811699926738df9218b394bce6d2ee-5234007-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=4fde7ae6ea14ba6d73117cd69d5d897b-5219071-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Nadu",
+    "productId": 16,
+    "CategoryId": 3,
+    "quantity": 15,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "+4.5%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=d0990e426853697a146d969ad229cac1-4459830-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=a0736237ca5e6a2ff0f672ac4ccb19d2-4034422-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=07ad31b075d16c5b122f9d6680352dc6-4012375-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Coconut Oil",
+    "productId": 36,
+    "CategoryId": 5,
+    "quantity": 1,
+    "unit": "l",
+    "trade_quality": { "hint": "info", "msg": "-1.5%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=aa400d1d228bf0abdca8f773d99e9c28-5232252-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=b8587a88e039260f7b9f1e9ba2181409-4552813-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=6e4b521cb7aa7d689c35f095201ec2c7-4969887-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Coconut",
+    "productId": 35,
+    "CategoryId": 5,
+    "quantity": 3,
+    "unit": "nos.",
+    "trade_quality": { "hint": "info", "msg": "0.0%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=668966f32fdc6acd5f483aee21ece54a-5661435-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=c7f6e09f961142388f066bd0e428eb27-5623485-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=13abd689d670fca4bb6a578e6ec22636-4078569-images-thumbs&n=13"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Kelawalla",
+    "productId": 22,
+    "CategoryId": 4,
+    "quantity": 5,
+    "unit": "kg",
+    "trade_quality": { "hint": "info", "msg": "-0.5%" },
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "images": [
+      "https://avatars.mds.yandex.net/i?id=99f24ca676837e27ec540b9f9ca1a014-5330491-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=78d2d5d7b74c9bf1730456a3f219faa8-5876180-images-thumbs&n=13",
+      "https://avatars.mds.yandex.net/i?id=22ebb82824ac4773a420d1624fa01661-4219938-images-thumbs&n=13"
     ]
   }
 ]

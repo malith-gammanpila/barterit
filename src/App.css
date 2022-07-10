@@ -44,7 +44,60 @@
 #dashboard_01,
 #categories_01 {
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 .btn {
   margin-left: -15px;
+}
+
+.uploardForm {
+  padding: 20px;
+}
+
+.navbar-custom {
+  background-color: #f26925;
+  color: white;
+}
+.na {
+  color: white;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: white;
+}
+
+.navHead {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.navHead2 {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.item {
+  padding: 20px;
+}
+
+.itemhead {
+  color: #1a1648;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.itemButtons {
+  margin-left: 25px;
+}
+
+.btn-successs {
+  /*formatting goes here*/
+  background-color: #34a853;
+  color: white;
+  border-radius: 20px;
+  margin-left: 1px;
+  height: 40px;
+  max-width: 100px;
+  margin-bottom: 10px;
 }

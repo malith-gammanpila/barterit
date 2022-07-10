@@ -36,11 +36,13 @@ const Dashboard = ({ data }) => {
       <section id="dashboard_02">
         <div className="container">
           <div className="row">
-            {data.map((data, i) => (
-              <div className="col-6 dashboardCard">
-                <DashboardItem data={data} />
-              </div>
-            ))}
+            {data
+              .filter((field) => field.CategoryId == 1)
+              .map((data, i) => (
+                <div className="col-6 dashboardCard">
+                  <DashboardItem data={data} />
+                </div>
+              ))}
           </div>
         </div>
       </section>

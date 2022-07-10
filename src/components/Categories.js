@@ -3,8 +3,16 @@ import b1 from '../assets/images/sample_images/beans_1.jpg';
 import b2 from '../assets/images/sample_images/beans_2.jpg';
 import Navbar from './Navbar';
 import DashboardItem from './DashboardItem';
+import Dashboard from './Dashboard';
 
 const Categories = ({ data }) => {
+  const test2 = () => {
+    window.location = `/uploard`;
+  };
+  const test = () => {
+    window.location = `/dashboard`;
+  };
+
   console.log('🚀 ~ file: Item.js ~ line 6 ~ Item ~ data', data);
   return data ? (
     <>
@@ -43,6 +51,7 @@ const Categories = ({ data }) => {
                   height="110"
                   src="https://cdn.britannica.com/17/196817-050-6A15DAC3/vegetables.jpg"
                   alt="First slide"
+                  onClick={test}
                 />
                 <div class="card-body">
                   <p class="card-text text-center">Vegetables</p>
@@ -56,6 +65,7 @@ const Categories = ({ data }) => {
                   height="110"
                   src="https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                   alt="First slide"
+                  onClick={test2}
                 />
                 <div class="card-body">
                   <p class="card-text text-center">Fruits</p>
